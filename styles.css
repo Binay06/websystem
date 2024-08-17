@@ -1,0 +1,75 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+h5{
+    position: absolute; 
+    top: 0;
+    left: 0;
+}
+div {background-color:rgb(235, 30, 30);}
+    div a{
+
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    padding: 12px;
+    display:inline-block;
+}
+
+ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    
+  }
+  ul li {display: inline-block;}
+  ul li:hover {background:yellow;
+}
+  ul li:hover ul {display: block;}
+  ul li ul {
+    
+    font-family:'Times New Roman';
+    position: absolute;
+    width: 200px;
+    display: none;
+  }
+  ul li ul li {
+    background: rgb(170, 212, 102);
+    display: block;
+  }
+
+header {
+
+    background-image: url('inner_banner2.jpg');
+    width: 100%;
+    height: 30vh;
+     padding: 1em;
+    color: #fff;
+    text-align: center;
+   
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: left;
+    font-size: 15px;
+    padding: 10px;
+    position:relative;
+    bottom:0;
+    width: 100%;
+}
+main {
+    max-width: 100%;
+    margin: 20px;
+    padding: 5vh;
+    background-color: #fff;
+    border-radius: 18px;
+    box-shadow: 0 0 46px rgba(0, 0, 0, 0.1);
+}
+
+h4 {
+    color: #3498db;
+}
